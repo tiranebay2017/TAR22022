@@ -12,7 +12,7 @@ public class TestThreadCheckArray {
 			for (int index = 0; index < num; index++)
 				array.add(input.nextInt());//kjhkjkjhkkj
 
-			System.out.println("Enter number");
+			System.out.println("Enter number");//gkghkjgh
 			num = input.nextInt();
 
 			SharedData sd = new SharedData(array, num);
@@ -20,7 +20,7 @@ public class TestThreadCheckArray {
 			thread1 = new Thread(new ThreadCheckArray(sd), "thread1");
 			thread2 = new Thread(new ThreadCheckArray(sd), "thread2");
 			thread1.start();
-			thread2.start();
+			thread2.start();//2140212
 			try
 			{
 				thread1.join();
